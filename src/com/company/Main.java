@@ -10,6 +10,7 @@ public class Main {
         bamse.makeNoise();
         viggo.makeNoise();
 
-
+        bamse.eat("kattemad");
+        viggo.eat("hundemad");
     }
 }
