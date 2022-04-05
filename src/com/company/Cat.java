@@ -15,4 +15,13 @@ public class Cat extends Animal{
         return true;
     }
 
+    public void showMood(boolean isHappy){
+        if(isHappy){
+            System.out.println("*purring*");
+        } else {
+            System.out.println("*hisses*");
+        }
+
+    }
+
 }

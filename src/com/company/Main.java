@@ -16,5 +16,8 @@ public class Main {
 
         bamse.eat("kattemad");
         viggo.eat("hundemad");
+
+        bamse.showMood(false);
+        viggo.showMood(true);
     }
 }

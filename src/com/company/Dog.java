@@ -15,4 +15,13 @@ public class Dog extends Animal{
         return true;
     }
 
+    public void showMood(boolean isHappy){
+        if(isHappy){
+            System.out.println("*licks* *wags tail*");
+        } else {
+            System.out.println("Grrrr!");
+        }
+
+    }
+
 }
