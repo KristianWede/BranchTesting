@@ -19,5 +19,7 @@ public class Main {
 
         bamse.showMood(false);
         viggo.showMood(true);
+
+        bamse.showMood(true);
     }
 }
